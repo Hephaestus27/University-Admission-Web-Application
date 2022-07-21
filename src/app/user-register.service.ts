@@ -11,7 +11,7 @@ export class UserRegisterService {
 
   public RegisterUser(user: any){
     
-    return this.Http.post("http://localhost:8080/api/user/create",user,{responseType:'text' as 'json'});
+    return this.Http.post("https://backenduniv.herokuapp.com/api/user/create",user,{responseType:'text' as 'json'});
   
             }
 
