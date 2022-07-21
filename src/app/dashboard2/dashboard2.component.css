@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,600&display=swap');
+
+.MainContainer{
+    margin-top: 100px;
+}
+
+
+
+
+
+.Grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap:30px;
+}
+
+
+
+.TitleContainer {
+    font-size: 17px;
+    background-color: #426eda94;
+    padding: 20px;
+    /* color: rgb(126, 100, 231); */
+    color: black;
+    font-weight: 550;
+    text-transform: uppercase;
+
+}
+.RightGrid .TitleContainer{
+    text-align: center;
+}
+
+
+.CalendarContainer, .CoursesContainer{
+    background-color: #f5f5f5bc;
+    height:max-content;
+}
+.Coursebox{
+    display: flex;
+    flex-direction: column;
+ 
+    border: 2px solid rgba(215, 215, 215, 0.329);
+    border-radius: 4px;
+    box-shadow: 7px 2px 13px 0px rgb(93, 93, 93);
+
+}
+.CourseGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.CourseImg img {
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+
+}
+.CoursesContainer {
+    padding: 31px;
+}
+
+.Coursebox:hover{
+    cursor: pointer;
+    box-shadow: 7px 2px 13px 0px rgba(39, 54, 117, 0.747);
+
+}
+.Coursebox:hover .CrsTitle{
+
+  Color: rgba(39, 54, 117, 0.747);
+
+}
+.Coursebox:hover .matricule{
+    Color: rgba(39, 54, 117, 0.747);
+    font-weight: 550;
+}
+
+.CourseTitle {
+    margin-left: 9px;
+    text-transform: uppercase;
+    font-weight: 550px;
+    
+}
+.CrsTitle{
+    padding-bottom: 15px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+}
+
+.LeftGrid , .RightGrid{
+    background-color: #f5f5f5;
+}
+
+
+
+
+/* CALENDAR */ 
+

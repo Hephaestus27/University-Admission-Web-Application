@@ -1,0 +1,83 @@
+
+
+
+
+.borderbx{
+    position: fixed;
+    left: 25%;
+    right:25%;
+    top:10%;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: rgba(172, 169, 169, 0.971);
+}
+.ProfileImg{
+ font-size: 100px;
+ color: black;
+}
+
+.ProfileName{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.fullname , .descr{
+    font-size: 50px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.descr{
+    font-size: 15px;
+    padding-left: 25px;
+}
+.profilecontainer{
+    margin-bottom: 100px;
+    background-color: #f5f5f5;
+ 
+
+}
+.borderbx{
+    border: 2px solid black;
+    width: fit-content;
+    height: fit-content;
+    
+
+}
+.table{
+    width: 668px;
+}
+#note{
+    float: right;
+    color: white;
+}
+
+.headtable{
+    background-color: royalblue;
+    text-transform: uppercase;
+    font-family: 'poppins',sans-serif;
+    font-weight: 520;
+}
+.note{
+    float: right;
+}
+
+tr{
+    height: 50px;
+}
+
+th{
+    padding: 25px;
+}
+.table{
+    margin-right: 0;
+}
+
+.notescontainer{
+    padding-left: 15px;
+}
+
+.Maincontainer{
+    margin:150px;
+}
