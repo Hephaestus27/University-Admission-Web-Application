@@ -46,11 +46,11 @@ import { LocalStorageServiceService } from '../local-storage-service.service';
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item" routerLink="../user/profile">
+          <a class="navbar-item" >
             Mon profile
           </a>
-          <a class="navbar-item" routerLink="../user/notes">
-            Mes Notes
+          <a class="navbar-item">
+            Mes Admissions
           </a>
         
           <hr class="navbar-divider">
@@ -79,16 +79,17 @@ export class LoggedHeaderComponent implements OnInit {
     
     this.Username = this.SessionManager.getItem("UserEmail")
     console.log(this.Username);
-    this.id = this.SessionManager.getItem("UserID")
+    this.id = "Secretaire";
     console.log(this.id);
 
+    
 
   }
 
   Logout(){
-    this.SessionManager.removeItem("userID");
+    this.SessionManager.removeItem("ServiceID");
     this.SessionManager.removeItem("UserEmail");
-    this.router.navigate(['/login']);
+    this.router.navigate(['/employeelogin']);
 
 
   }

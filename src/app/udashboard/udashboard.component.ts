@@ -129,7 +129,7 @@ import { UserAdmission } from '../UserAdmission';
            
               <tr class=" tabledata table is-striped">
                 <td>{{this.datedepot}}</td>
-                <td>Inscription Scolaire 2022 - 2023</td>
+                <td>{{this.type}} </td>
                 <td>{{this.formation}}</td>
                 <td>{{this.etat}}</td>
                 <td>{{this.Modifdate}}</td>
@@ -160,7 +160,7 @@ export class UdashboardComponent implements OnInit {
   formation: any;
   etat: any;
   Modifdate: any;
-
+  type: any;
   constructor(private router: Router, private SessionManager: LocalStorageServiceService, private AdmissionService: AdmissionServiceService) { }
 
   Admissions: UserAdmission = new UserAdmission("", "", "", "", "", false, "", "", "", -1, "", "", "", "");
@@ -176,14 +176,18 @@ export class UdashboardComponent implements OnInit {
           this.Admissions = JSON.parse(data.toString());
           if (this.Admissions.choixFilierePrincipale == "E-INF") {
             this.formation = "Genie Informatique";
+            this.type ="Inscription Scolaire 2022 - 2023";
+
           } else if (this.Admissions.choixFilierePrincipale == "E-ECO") {
             this.formation = "SCIENCES ECONOMIQUES ET GESTIONS";
+            this.type ="Inscription Scolaire 2022 - 2023";
+
           } else if (this.Admissions.choixFilierePrincipale == "E-DROIT") {
             this.formation = "Etudes de droit français";
+            this.type ="Inscription Scolaire 2022 - 2023";
           }
           this.datedepot = this.Admissions.dateDepot.split('T')[0];
           this.Modifdate = this.Admissions.dateModification.split('T')[0];
-
           if (this.Admissions.status != null) {
             this.etat = this.Admissions.status;
           } else {

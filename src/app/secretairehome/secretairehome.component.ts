@@ -9,6 +9,7 @@ import { LocalStorageServiceService } from '../local-storage-service.service';
   selector: 'app-secretairehome',
   template: `
 
+  <app-logged-header></app-logged-header>
   <section class="container">
 
   <div class="title">
