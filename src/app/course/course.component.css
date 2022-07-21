@@ -1,0 +1,132 @@
+.Grid{
+    display: grid;
+    grid-template-columns: 2fr 8fr 3fr;
+    gap: 15px;
+}
+
+
+.MiddleGrid , .RightGrid{
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+.TitleContainer {
+    font-size: 17px;
+    background-color: #426eda94;
+    padding: 20px;
+    /* color: rgb(126, 100, 231); */
+    color: black;
+    font-weight: 550;
+    text-transform: uppercase;
+
+}
+.RightGrid .TitleContainer{
+    text-align: center;
+}
+.CoursesContainer{
+    padding: 20px;
+
+}
+.CourseDivider{
+    margin-top: 20px;
+    background-color: black;
+    opacity: 0.05;
+    
+}
+
+
+
+.matricule{
+    font-size: 30px;
+}
+
+.matricule:hover{
+    color: royalblue;
+}
+
+.fileContainer{
+    margin: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+.fileContainer:hover{
+    color: royalblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.filesContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.RightGrid .TitleContainer{
+    font-size: 15px;
+}
+
+.RightGrid{
+    margin-right: 10%;
+}
+.LeftGrid{
+    background-color: #f5f5f5c6;
+    width: 100%;
+}
+
+
+.CourseDateContainer {
+    margin: 10px;
+    border-top: 2px solid rgb(213, 213, 213);
+    border-left: 2px solid rgb(213, 213, 213);
+    border-right: 2px solid rgb(213, 213, 213);
+}
+
+.DateElement, .MonthElement,.monthElement, .Course , .CourseElement{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+
+}
+.DateElement, .MonthElement , .CourseElement {
+    border-bottom: 2px solid rgb(213, 213, 213);
+
+}
+
+ .monthElement:hover , .Course:hover{
+    background-color: #f3f1f1ec;
+    cursor: pointer;
+    color: royalblue;
+    font-weight: 550;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.CourseDateContainer{
+    margin-left: 5px;
+}
+.monthElement , .Course{
+    padding: 20px;
+}
+
+.CourseElement:hover , .MonthElement:hover{
+    cursor: pointer;
+}
+#months , #courses{
+    display: none
+}
+
+.Course:last-child {
+    border-bottom: 2px solid rgb(213, 213, 213);
+
+}
+.DateElement{
+    background-color: royalblue;
+    color:white;
+}
+.DateElement:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,600&display=swap');
+
+.HomeBody{
+    background-color: #2c3968 ;
+
+}
+.Grid{
+    display: grid;
+    grid-template-columns: 4fr 1fr 8fr;
+    width: 100%;
+    height: max-content;
+    font-family: 'poppins',sans-serif;
+}
+
+.LeftSide{
+    padding:15px;
+    padding-top: 100px;
+}
+.Title{
+    font-family: 'poppins',sans-serif;
+    color: white;
+    text-transform: uppercase;
+    overflow-wrap: break-word;
+    font-size: 42px;
+    text-align:center;
+    font-weight: 500;
+}
+p.description {
+    padding-left: 18px;
+    font-size: 10px;
+    padding-top: 30px;
+    color: lightgray;
+    padding-left: 80px;
+    padding-right: 90px;
+}
+.dashed-border{
+    margin: auto;
+    margin-top: 220%;
+    margin-bottom: 10%;
+    border: 1px dashed white;
+    transform: rotate(90deg);
+}
+
+
+.DataContainer{
+    position: relative;
+    text-align: center;
+    color: white;
+  
+    
+}
+
+.bottom-text {
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  
+  .shaded{
+    background: linear-gradient(
+        to top,
+        black,
+        rgba(255, 0, 0, 0)
+      );
+
+  }
+.TextContainer{
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.ImgTtitle{
+    font-family: 'poppins',sans-serif;
+    font-size: 30px;
+    font-weight: 520;
+}
+.desc{
+    font-family: 'poppins',sans-serif;
+    font-weight: 200;
+
+    font-size: 10px;
+}
+.description{
+    text-align: left;
+}
+
+.navbar{
+    padding: 5px;
+}
+
+.RightSide:hover{
+    cursor: pointer;
+}
+.RightSide:hover .TextContainer{
+    display: block;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+.TextContainer{
+    display: none;
+}
+
+.filliere{
+    font-family: 'poppins',sans-serif;
+    text-transform: uppercase;
+    font-weight: 490;  
+    font-size: 30px;
+    text-decoration-line: underline;    
+    
+}
+
+
+/* fillieres */ 
+.studies{
+    background-color: #2c3968 ;
+
+}
+
+.Studybox{
+    background-color: #2c3968 ;
+    height: 600px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 2px solid white;
+    position: relative;
+}
+.StudiesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1%;
+    margin-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+i.Studies-icons.fa-solid.fa-book {
+    font-size: 100px;
+}
+
+h2.StudyTitle {
+    font-family: 'poppins',sans-serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.bruchurebtn{
+    position: absolute;
+    bottom: 50px;
+    left: 25%;
+    right: 25%;
+}

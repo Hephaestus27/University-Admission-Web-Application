@@ -1,0 +1,27 @@
+
+
+.contactUs{
+    background-size: auto;
+    background-image: url("../../assets/images/ContactUs.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.contactUs{
+    width: auto;
+    height:auto;
+}
+.Formcontainer{
+    
+    margin-left: 800px;
+    margin-right: 200px;
+    padding: 100px 0;
+    
+}
+.contactForm{
+    padding: 30px;
+    background-color: rgba(49, 59, 255, 0.3);
+    border-radius: 8px;
+}
+
+

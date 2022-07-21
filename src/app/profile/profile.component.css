@@ -1,0 +1,23 @@
+
+
+
+
+.EmailInput{
+    width: 45%;
+}
+
+.Profile {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 130px;
+    margin-bottom: 60px;
+
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 5px 4px 3px #dddddd;
+}
+
+.title {
+    text-align: center;
+}

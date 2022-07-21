@@ -1,0 +1,295 @@
+
+
+.pages:hover{
+    cursor: pointer;
+    background-color: #93a4f17d;
+}
+
+.pages:hover .circl{
+    color: royalblue;
+}
+.pages:hover .circlbtn{
+    background-color:#93a4f17d;
+    color: royalblue;
+}
+
+.SG{
+   
+    padding: 0 25%;
+    
+}
+.DG{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+align-items: center;
+margin-bottom: 65px;
+
+}
+.DG:first-child{
+    margin-top: 45px;
+
+}
+.TG{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 65px;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.TGF{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 65px;
+    align-items: center;
+    margin-bottom: 0px !important;
+
+}
+
+.labels{
+    padding-right: 30px;
+}
+
+.inputForm{
+    padding: 5px;
+    width: 75%;
+    border: none;
+}
+.OptionInput{
+    padding: 5px;
+    width:60%;
+    border: none;
+}
+.inputForm:focus, .inputForm:active , .inputForm:hover{
+    border: none;
+}
+
+.TextInput{
+    padding: 5px;
+    width: 60%;
+    border: none;
+    border-radius: 4px;
+
+}
+.TextInput:focus, .TextInput:active , .TextInput:hover{
+    border: none;
+    border-radius: 4px;
+
+}
+select{
+    border: none;
+    padding: 50px;
+    border-radius: 4px;
+
+}
+.options{
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.Formwrapper{
+    padding: 20px;
+}
+
+#activeForm{
+    background-color:#93a4f17d;
+    color: royalblue;
+
+}
+#activeCircle{
+    background-color:#93a4f17d;
+ 
+}
+
+#f2 , #f3 , #f4 , #f5{
+    display: none;
+}
+#f1{
+    background-color: #93a4f17d; display: block;
+}
+
+#date{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.NumberInput{
+    width: 25%;
+    border-radius: 4px;
+}
+
+.NextBtn {
+    padding-top: 30px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    gap: 10px;
+
+}
+.Cancelbtn{
+    gap:5px;
+}
+
+
+.SG2{
+    padding-left: 0px;
+}
+
+.whitebox{
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.MediumInput{   
+    width: 60%;
+}
+.SmallInput{
+    width: 25%;
+}
+
+.LargeInput{
+    width: 75%;
+}
+.SmG  /*Small Gap */ {
+    gap: 20px;
+}
+
+.QG{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 0px !important;
+}
+
+.Bx{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 35px;
+    align-items: center;
+    height: 100px;
+}
+
+.optionpad5{
+    margin-left: 10px;
+}
+
+.addbtncontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.PlusIcon{
+    gap: 20px;
+
+}
+
+.UploadBox{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.FileIcon{
+    background-color: #93a4f17d;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.FilesListContainer{
+    background-color: #ede7ea;
+    height: 150px;
+    border-bottom-left-radius:3px ;
+    border-bottom-right-radius:3px ;
+    padding: 25px 25px 35px 35px;
+}
+
+.addbtncontainer{
+    background-color: #c6c5c5;
+    padding: 10px;
+    border-top-left-radius:3px ;
+    border-top-right-radius:3px ;
+}
+.PlusIcon{
+    width: 150px;
+}
+.uploadFileTextinfo
+{
+    margin-bottom: 7px;
+    font-size: 20px;
+
+}
+
+.missingInfoElement{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+    color: rgb(232, 60, 97);
+    font-size: 17px;
+}
+.missingInfoElement:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+.clickable{
+    cursor: pointer;
+}
+
+.input[type='text']:focus,.input[type='number']:focus ,.input[type='email']:focus,
+.input[type='date']:focus{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.filelabel{
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#upload{
+    display: none;
+}
+.addbtncontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.icd {
+    display: flex;
+    gap: 5px;
+}

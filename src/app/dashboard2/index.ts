@@ -1,0 +1,1 @@
+export * from './dashboard2.component';
