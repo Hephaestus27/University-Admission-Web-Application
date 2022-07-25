@@ -11,13 +11,13 @@ export class LoginService {
   public Ucl(Credentials: any){
     
    
-    return this.Http.post("https://backenduniv.herokuapp.com/api/user/credentials",Credentials,{responseType:'text' as 'json'});
+    return this.Http.post(" http://localhost:8080/api/user/credentials",Credentials,{responseType:'text' as 'json'});
   
 }
 public Employeecl(Credentials: any){
     
    
-  return this.Http.post("https://backenduniv.herokuapp.com/api/employee/credentials",Credentials,{responseType:'text' as 'json'});
+  return this.Http.post(" http://localhost:8080/api/employee/credentials",Credentials,{responseType:'text' as 'json'});
 
 }
 }
