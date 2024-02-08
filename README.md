@@ -3,7 +3,7 @@
 <h1>The FrontEnd part of a full Stack University portal project</h1>
 <p>A university portal that is used for students' application submissions</p>
 
-<h4> <span> · </span> <a href="https://github.com/Hephaestus27/University Admission Web Application/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Hephaestus27/University Admission Web Application/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Hephaestus27/University Admission Web Application/issues"> Request Feature </a> </h4>
+<h4> <span> · </span> <a href="https://github.com/Hephaestus27/University-Admission-Web-Application/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/Hephaestus27/University-Admission-Web-Application/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/Hephaestus27/University-Admission-Web-Application/issues"> Request Feature </a> </h4>
 
 
 </div>
@@ -81,11 +81,7 @@ ng serve
 <a href="https://github.com/Hephaestus27/University-Admission-Web-Application/graphs/contributors"> <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" /> </a>
 
 Contributions are always welcome!
-
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Hephaestus27/University-Admission-Web-Application/blob/master/CODE_OF_CONDUCT.md)
-
+ 
 ## :warning: License
 
 Distributed under the no License. See LICENSE.txt for more information.
